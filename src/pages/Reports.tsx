@@ -25,7 +25,7 @@ import {
   Pie,
   Cell
 } from 'recharts';
-import { Calendar as CalendarIcon, Download, ChevronDown, FilePdf, FileSpreadsheet } from 'lucide-react';
+import { Calendar as CalendarIcon, Download, ChevronDown, FileText, FileSpreadsheet } from 'lucide-react';
 import { format } from 'date-fns';
 
 // Dummy report data
@@ -103,7 +103,7 @@ const Reports = () => {
             <PopoverContent className="w-48">
               <div className="space-y-2">
                 <Button variant="ghost" className="w-full justify-start">
-                  <FilePdf className="mr-2 h-4 w-4" />
+                  <FileText className="mr-2 h-4 w-4" />
                   Export as PDF
                 </Button>
                 <Button variant="ghost" className="w-full justify-start">
